@@ -1,0 +1,6 @@
+apiVersion: v2
+name: common-web-service
+description: Generic web service chart (Deployment + Service), fully parametrized via values.yaml. Shared by expenseapp, fraud-detection-demo, and analytics-demo — proves one chart can serve multiple independent apps.
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
